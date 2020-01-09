@@ -19,8 +19,7 @@ am4core.useTheme(am4themes_animated);
 var chart = am4core.create("chartdiv", am4charts.RadarChart);
 
 // Add data
-chart.data = [{'category': 'Codes for special purposes', 'full': 2000, 'value': 20},
- {'category': 'Conditions related to sexual health',
+chart.data = [{'category': 'Conditions related to sexual health',
   'full': 2000,
   'value': 72},
  {'category': 'Sleep-wake disorders', 'full': 2000, 'value': 86},
