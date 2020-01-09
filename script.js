@@ -14,6 +14,34 @@
 am4core.useTheme(am4themes_animated);
 // Themes end
 
+name,count
+
+
+
+"Symptoms, signs or clinical findings, not elsewhere classified",1282
+Certain infectious or parasitic diseases,1025
+Diseases of the digestive system,989
+External causes of morbidity or mortality,984
+"Mental, behavioural or neurodevelopmental disorders",882
+Factors influencing health status or contact with health services,880
+Diseases of the nervous system,873
+Diseases of the skin,824
+Diseases of the visual system,736
+"Endocrine, nutritional or metabolic diseases",665
+Certain conditions originating in the perinatal period,630
+Diseases of the circulatory system,593
+Diseases of the genitourinary system,548
+Supplementary Chapter Traditional Medicine Conditions - Module I,537
+"Pregnancy, childbirth or the puerperium",514
+Diseases of the musculoskeletal system or connective tissue,445
+Diseases of the respiratory system,361
+Diseases of the blood or blood-forming organs,270
+Diseases of the immune system,259
+Diseases of the ear or mastoid process,164
+Supplementary section for functioning assessment,107
+Sleep-wake disorders,86
+Conditions related to sexual health,72
+Codes for special purposes,20
 
 
 // Create chart instance
@@ -21,90 +49,71 @@ var chart = am4core.create("chartdiv", am4charts.RadarChart);
 
 // Add data
 chart.data = [{
-  "category": "Symptoms, signs or clinical findings, not elsewhere classified",
-  "value": 3919,
-  "full": 4000
-},{
-  "category": "Developmental anomalies",
-  "value": 2375,
-  "full": 4000
-},{
-  "category": "Certain conditions originating in the perinatal period",
-  "value": 1816,
-  "full": 4000
-},{
-  "category": "Pregnancy, childbirth or the puerperium",
-  "value": 2614,
-  "full": 4000
-},{
-  "category": "Conditions related to sexual health",
-  "value": 1079,
-  "full": 4000
-},{
-  "category": "Diseases of the genitourinary system",
-  "value": 1389,
-  "full": 4000
-},{
-  "category": "Diseases of the musculoskeletal system or connective tissue",
-  "value": 3554,
-  "full": 4000
-},{
-  "category": "Diseases of the skin",
-  "value": 1541,
-  "full": 4000
-},{
-  "category": "Diseases of digestive system",
-  "value": 1284,
-  "full": 4000
-},{
-  "category": "Diseases of the respiratory system",
-  "value": 2323,
-  "full": 4000
-}, {
-  "category": "Diseases of the circulatory system",
-  "value": 2871,
-  "full": 4000
-}, {
-  "category": "Diseases of the ear or mastoid process",
-  "value": 1094,
-  "full": 4000
-}, {
-  "category": "Diseases of the visual system",
-  "value": 2955,
-  "full": 4000
-}, {
-  "category": "Diseases of the nervous system",
-  "value": 2537,
-  "full": 4000
-},{
-  "category": "Sleep-wake disorders",
-  "value": 1200,
-  "full": 4000
-},{
-  "category": "Mental, behavioural or neurodevelopmental disorders",
-  "value": 3727,
-  "full": 4000
-}, {
-  "category": "Endocrine, nutritional or metabolic diseases",
-  "value": 2848,
-  "full": 4000
-}, {
-  "category": "Diseases of the immune system",
-  "value": 1061,
-  "full": 4000
-}, {
-  "category": "Diseases of the blood or blood-forming organs",
-  "value": 2942,
-  "full": 4000
-}, {
-  "category": "Neoplasms",
-  "value": 1324,
-  "full": 4000
-},{
-  "category": "Certain infectious or parasitic diseases",
-  "value": 1513,
-  "full": 4000
-}];
+  'category': 'Injury, poisoning or certain other consequences of external causes',
+  'full': 2000,
+  'value': 1999},
+ {'category': 'Developmental anomalies',
+  'full': 2000,
+  'value': 1342},
+ {'category': 'Neoplasms', 'full': 2000, 'value': 1303},
+ {'category': 'Symptoms, signs or clinical findings, not elsewhere classified',
+  'full': 2000,
+  'value': 1282},
+ {'category': 'Certain infectious or parasitic diseases',
+  'full': 2000,
+  'value': 1025},
+ {'category': 'Diseases of the digestive system', 'full': 2000, 'value': 989},
+ {'category': 'External causes of morbidity or mortality',
+  'full': 2000,
+  'value': 984},
+ {'category': 'Mental, behavioural or neurodevelopmental disorders',
+  'full': 2000,
+  'value': 882},
+ {'category': 'Factors influencing health status or contact with health services',
+  'full': 2000,
+  'value': 880},
+ {'category': 'Diseases of the nervous system', 'full': 2000, 'value': 873},
+ {'category': 'Diseases of the skin', 'full': 2000, 'value': 824},
+ {'category': 'Diseases of the visual system', 'full': 2000, 'value': 736},
+ {'category': 'Endocrine, nutritional or metabolic diseases',
+  'full': 2000,
+  'value': 665},
+ {'category': 'Certain conditions originating in the perinatal period',
+  'full': 2000,
+  'value': 630},
+ {'category': 'Diseases of the circulatory system',
+  'full': 2000,
+  'value': 593},
+ {'category': 'Diseases of the genitourinary system',
+  'full': 2000,
+  'value': 548},
+ {'category': 'Supplementary Chapter Traditional Medicine Conditions - Module I',
+  'full': 2000,
+  'value': 537},
+ {'category': 'Pregnancy, childbirth or the puerperium',
+  'full': 2000,
+  'value': 514},
+ {'category': 'Diseases of the musculoskeletal system or connective tissue',
+  'full': 2000,
+  'value': 445},
+ {'category': 'Diseases of the respiratory system',
+  'full': 2000,
+  'value': 361},
+ {'category': 'Diseases of the blood or blood-forming organs',
+  'full': 2000,
+  'value': 270},
+ {'category': 'Diseases of the immune system', 'full': 2000, 'value': 259},
+ {'category': 'Diseases of the ear or mastoid process',
+  'full': 2000,
+  'value': 164},
+ {'category': 'Supplementary section for functioning assessment',
+  'full': 2000,
+  'value': 107},
+ {'category': 'Sleep-wake disorders', 'full': 2000, 'value': 86},
+ {'category': 'Conditions related to sexual health',
+  'full': 2000,
+  'value': 72},
+ {'category': 'Codes for special purposes', 'full': 2000, 'value': 20}];
 
 // Make chart not full circle
 chart.startAngle = -90;
