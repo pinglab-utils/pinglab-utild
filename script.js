@@ -14,35 +14,6 @@
 am4core.useTheme(am4themes_animated);
 // Themes end
 
-name,count
-
-
-
-"Symptoms, signs or clinical findings, not elsewhere classified",1282
-Certain infectious or parasitic diseases,1025
-Diseases of the digestive system,989
-External causes of morbidity or mortality,984
-"Mental, behavioural or neurodevelopmental disorders",882
-Factors influencing health status or contact with health services,880
-Diseases of the nervous system,873
-Diseases of the skin,824
-Diseases of the visual system,736
-"Endocrine, nutritional or metabolic diseases",665
-Certain conditions originating in the perinatal period,630
-Diseases of the circulatory system,593
-Diseases of the genitourinary system,548
-Supplementary Chapter Traditional Medicine Conditions - Module I,537
-"Pregnancy, childbirth or the puerperium",514
-Diseases of the musculoskeletal system or connective tissue,445
-Diseases of the respiratory system,361
-Diseases of the blood or blood-forming organs,270
-Diseases of the immune system,259
-Diseases of the ear or mastoid process,164
-Supplementary section for functioning assessment,107
-Sleep-wake disorders,86
-Conditions related to sexual health,72
-Codes for special purposes,20
-
 
 // Create chart instance
 var chart = am4core.create("chartdiv", am4charts.RadarChart);
