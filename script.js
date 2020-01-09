@@ -19,14 +19,7 @@ am4core.useTheme(am4themes_animated);
 var chart = am4core.create("chartdiv", am4charts.RadarChart);
 
 // Add data
-chart.data = [{'category': 'Conditions related to sexual health',
-  'full': 2000,
-  'value': 72},
- {'category': 'Sleep-wake disorders', 'full': 2000, 'value': 86},
- {'category': 'Supplementary section for functioning assessment',
-  'full': 2000,
-  'value': 107},
- {'category': 'Diseases of the ear or mastoid process',
+chart.data = [{'category': 'Diseases of the ear or mastoid process',
   'full': 2000,
   'value': 164},
  {'category': 'Diseases of the immune system', 'full': 2000, 'value': 259},
