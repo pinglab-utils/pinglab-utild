@@ -11,4 +11,4 @@ This resource provides a working library of biomedical Application Programming I
 
 This resource catalogs knowledge graphs constructed for a specific use-case, integrating information from multiple biomedical resources.
 
-The works presented in these resources were developed as part of the class projects from UCLA Bioinformatics 201 and as hands-on projects from Bridge2AI ENABLE Scholar Program.
+The works presented in these resources were developed as part of the class projects from **UCLA Bioinformatics 201** and as hands-on projects from **Bridge2AI ENABLE Scholar Program**.
